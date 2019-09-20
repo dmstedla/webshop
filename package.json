@@ -1,0 +1,24 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sileshi Chukala, Demsachew Mekonnen, Ashley Berlin,",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "imagemin": "^6.1.0",
+    "math-expression-evaluator": "^1.2.17"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify": "^3.1.0"
+  },
+  "description": ""
+}

@@ -1,0 +1,86 @@
+/*Checkout page Styles*/
+
+#checkoutComplete{
+    background-color:#DCDCDC;
+    border-top: 1px solid #333;
+}
+
+.checkmarkcom p {
+    font-size: 125%;
+    text-align: center;
+}
+
+.checkmarkcom {
+    width: 200px;
+    margin: 0 auto 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    animation: dash 2s ease-in-out;
+    -webkit-animation: dash 2s ease-in-out;
+}
+
+.spin {
+    animation: spin 2s;
+    -webkit-animation: spin 2s;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+}
+#clearfix{
+    height: 50px;
+}
+@-webkit-keyframes dash {
+    0% {
+        stroke-dashoffset: 1000;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 1000;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+ @media only screen and (max-width: 600px) {
+#checkoutComplete{
+height: 500px;
+}
+.checkmarkcom {
+    margin: auto auto auto 300px;
+   
+}
+.top-nav {
+    width: 600px;
+}
+ }
